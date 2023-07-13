@@ -41,7 +41,7 @@ What python code is then "exposed" by default depends n the `__init__.py` file.
 You can think of this special file as an import delegation file,
 where the package created takes care of what to import.
 
-#### '__init__.py'
+#### `__init__.py`
 
 ```python
 from .human import Human as Human
@@ -66,7 +66,7 @@ class Human:
 This file represents the actual functionality of our library.
 In this case, a simple class is modelling a human who can be named and introduced by his name.
 
-### How to run:
+### How to run
 
 Use the python interpreter to run the script.
 
