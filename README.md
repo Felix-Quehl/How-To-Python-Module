@@ -79,3 +79,8 @@ Output:
 ```bash
 My name is Daniel
 ```
+
+# Uploading Package
+
+If you want to make your package available online, you must take additional steps according to [this tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
