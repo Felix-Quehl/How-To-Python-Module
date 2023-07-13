@@ -16,7 +16,7 @@ The example files are structured as follows:
 
 The `main.py` is our entry point, and everything in the `Animals` directory is part of the package.
 
-### main.py
+### `main.py`
 
 ```python
 import Animals
@@ -41,7 +41,7 @@ What python code is then "exposed" by default depends n the `__init__.py` file.
 You can think of this special file as an import delegation file,
 where the package created takes care of what to import.
 
-#### __init__.py
+#### `__init__.py`
 
 ```python
 from .human import Human as Human
@@ -51,7 +51,7 @@ In the '__init__.py' file, we can see the named import of the `Human` class for 
 The file is not referred to literally but simply as `.human`.
 
 
-#### human.py
+#### `human.py`
 
 ```python
 class Human:
