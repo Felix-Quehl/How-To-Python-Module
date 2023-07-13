@@ -1,1 +1,1 @@
-from .Human import Human as Human
+from .human import Human as Human
